@@ -17,7 +17,6 @@ export const Add = () => {
 
 
   const addImage =  async () => {
-    window.location.reload(false);
       const uploadTask = uploadBytesResumable(storageRef, file);
       uploadTask.on('state_changed', 
         (snapshot) => {
@@ -56,7 +55,7 @@ export const Add = () => {
      } catch (err) {
        alert(err)
      }
-     
+     window.location.reload(false);
     }
 
 
