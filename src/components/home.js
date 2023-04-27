@@ -30,7 +30,7 @@ export const Home = () => {
     <div className="App">
       <Carousel
         showArrows={false}
-        autoPlay={false}
+        autoPlay={true}
         infiniteLoop={true}
         selectedItem={memories[currentIndex]}
         onChange={handleChange}
