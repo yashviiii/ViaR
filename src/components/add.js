@@ -55,6 +55,7 @@ export const Add = () => {
      } catch (err) {
        alert(err)
      }
+     window.location.reload(false);
     }
 
 
